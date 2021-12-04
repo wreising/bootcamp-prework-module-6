@@ -3,7 +3,7 @@ var boxHeightAndWidth = 150;
 document.getElementById("growBtn").addEventListener("click", function() {
   // Well my mate if you are tring to make box bigger each time then don't pass fixed height and width 
   // but make it bigger each time you pressed the button like so:
-  boxHeightAndWidth += 10;
+  boxHeightAndWidth += 20;
   // and we don't change color cuz why even?
   // document.getElementById("box").style = "height:" + boxHeightAndWidth +"px; width:" + boxHeightAndWidth + "px;background-color:orange; margin:25px";
   document.getElementById("box").style.height = boxHeightAndWidth + "px";
