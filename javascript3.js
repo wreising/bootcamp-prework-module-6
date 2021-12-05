@@ -22,7 +22,6 @@ document.getElementById("blueBtn").addEventListener("click", function() {
   document.getElementById("box").style.opacity = "1";
 });
 
-
 // jea let's break this to pieces
 document.getElementById("fadeBtn").addEventListener("click", function() { // here you add event "onclick"
 
